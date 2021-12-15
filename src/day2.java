@@ -16,9 +16,9 @@ public class day2 {
             int distance = Integer.parseInt(way2);
             submarine.move(direction, distance);
 
-            System.out.println("direction " + direction);
-            System.out.println("distance "+ distance);
-            System.out.println(scan.hasNext());
+//            System.out.println("direction " + direction);
+//            System.out.println("distance "+ distance);
+//            System.out.println(scan.hasNext());
         }
 
         System.out.println(submarine.getDepth()*submarine.getHorizontal());
