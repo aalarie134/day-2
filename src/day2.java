@@ -10,7 +10,7 @@ public class day2 {
         File file  = new File("input.txt");
         Scanner scan = new Scanner(file);
 
-        while(scan.hasNextLine()) {
+        while(scan.hasNext()) {
             String direction = scan.next();
             String way2 = scan.next();
             int distance = Integer.parseInt(way2);
@@ -18,7 +18,7 @@ public class day2 {
 
             System.out.println("direction " + direction);
             System.out.println("distance "+ distance);
-            System.out.println(scan.hasNextLine());
+            System.out.println(scan.hasNext());
         }
 
         System.out.println(submarine.getDepth()*submarine.getHorizontal());

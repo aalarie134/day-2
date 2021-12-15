@@ -16,8 +16,10 @@ public class mover {
                 break;
             case "up":
                 depth = depth - distance;
+                break;
             case "down":
                 depth = depth + distance;
+                break;
         }
 
     }
